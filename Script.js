@@ -18,3 +18,5 @@ tarjeta.addEventListener('click', () => {
   }
   esMasculino = !esMasculino;
 });
+
+hola

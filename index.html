@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Perfil de Usuario</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -17,18 +16,21 @@
   <main>
     <section>
       <div class="perfil-card">
-        <img src="#" alt="Foto de perfil del usuario">
-        <h2>Itan Segovia</h2>
-        <p>Desarrollador Web</p>
+        <img src="#" alt="Foto de perfil"/>
+        <h2 id="nombre">Itan Segovia</h2>
+        <p id="ocupacion">Desarrollador Web</p>
         <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
         </ul>
       </div>
     </section>
   </main>
 
-  <footer>2025 Itan Santiago Segovia Guerrero</footer>
-</head>
+  <footer>
+    <p>&copy; <span id="año"></span> 2025 Itan Santiago Segovia Guerrero </p>
+  </footer>
+
 </body>
+</html>
